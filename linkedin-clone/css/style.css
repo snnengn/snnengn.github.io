@@ -1,11 +1,10 @@
 .navbarbg {
-    height: 70px;
+    height: 52px;
     background-color: white;
   }
-  
   input.searche {
     height: 36px;
-    max-width: 500px;
+    max-width: 600px;
     background-color: #eef3f8;
     border: 0;
   }
@@ -22,10 +21,12 @@
   
   .body {
     background-color: #f3f2ef;
+    align-items: center;
+    margin-top: 70px;
   }
   
   .menutext {
-    font-size: 9px;
+    font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: gray;
@@ -111,6 +112,10 @@
     color: #5f5f5f;
   }
   
+  .btn-outline-light {
+
+    border-color: aqua;
+  }
   button.ref {
     color: white;
   }
@@ -129,11 +134,10 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 14px;
-    margin-left: 8px;
   }
   .navbar-nav {
     display: flex;
-    align-items: center;
+    flex-wrap: nowrap;
     gap: 10px;
   }
   
@@ -151,3 +155,26 @@
     border-radius: 60%;
     margin-top: 3px;
   }
+  .nav-link-iw {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link-iw:hover{
+  color: black;
+}
+
+.nav-link-iw:hover .menutext {
+  color: black;
+}
+.nav-item {
+  align-items: center;
+}
+.card-footer {
+  background:none
+}
+.card-header {
+  height: 65px;
+  background:none
+}
