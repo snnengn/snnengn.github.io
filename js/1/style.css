@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+    body {
+    font-family: Helvetica;
+    background-color: #b8b6b6;
+    color: #fdfdfd;
+}
+.card {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 150px auto 0;
+    background-color: #42515a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.card .card-header{
+    display: flex;
+}
+.card .card-header .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #0083a3;
+    box-shadow: 0 0 20px #00000080;
+}
+
+.card .card-header .profile-img:hover {
+    width: 160px;
+    height: 160px;
+    border: 8px solid #10a5ca;
+}
+.card .card-body {
+    padding: 10px 40px;
+}
+
+.card .card-body .name {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    color: #35c8ec;
+}
+
+.card .card-body .mail {
+    font-size: 14px;
+    color: #c2bdbd;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card .card-body .mail:hover {
+    font-size: 16px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card .card-body .job {
+    margin-top: 10px;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.card .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card .social-links .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #0083a3;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+    text-decoration: none;
+    margin: 0 13px 30px 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card .social-links .social-icon:last-child {
+    margin-right: 0;
+}
+
+.card .social-links .social-icon:hover {
+    background-color: #17a5c9;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+}
+.card .card-footer {
+    height: 68px;
+    background-color: #0083a3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card .card-footer .clock {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+.yazi {
+    margin-top: 30px;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #e6e6e6;
+}
+.name2 {
+    list-style-type:none;
+    text-align: start;
+    width: 18%;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #c9c9c9;
+    
+}
+.name3 {
+    list-style-type:none;
+    text-align: start;
+    width: 32%;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #c9c9c9;
+    
+}
+.name4 {
+    list-style-type:none;
+    text-align: end;
+    width: 50%;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #c9c9c9;
+    
+}
